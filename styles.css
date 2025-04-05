@@ -149,3 +149,23 @@ body {
 .arrow-right {
     right: 20px;
 }
+
+
+.logos-container {
+    list-style: none;
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #D0D5DD;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #D0D5DD;
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+
+.brands-wrapper {
+    margin-left: 52px;
+    margin-right: 52px;
+}
