@@ -279,3 +279,18 @@ body {
     color: var(--white);
     border-bottom: 1px solid #FFFFFF;
   }
+
+  .learn-more-heading {
+    font-weight: 600;
+    font-size: 42px;
+    letter-spacing: -0.4px;
+    line-height: 54px;
+    margin-bottom: 13px;
+  }
+
+  .learn-more-paragraph {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 24px;
+  }
