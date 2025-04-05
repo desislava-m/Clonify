@@ -96,7 +96,6 @@ body {
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: 1px solid #282828;
     cursor: pointer;
     padding-bottom: 5px;
     
@@ -104,6 +103,7 @@ body {
 
 .hero-text button {
     color: var(--primary);
+    border-bottom: 1px solid #282828;
 }
 
 .hero-text {
@@ -219,3 +219,63 @@ body {
     display: flex;
     align-items: center;
 }
+
+.products-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px; 
+    margin: 0 52px 84px;
+  }
+  
+  .column {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .column img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .small-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--grey);
+    margin-top: 16px;
+    margin-bottom: 2px;
+  }
+  
+  .headline {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--primary);
+    margin: 0;
+  }
+
+  .learn-more-container {
+    position: relative;
+    padding: 52px;
+    text-align: center;
+  }
+
+  .learn-more-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .learn-more-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: var(--white);
+    max-width: 700px;
+    padding: 20px;
+  }
+  
+  .learn-more-text button {
+    color: var(--white);
+    border-bottom: 1px solid #FFFFFF;
+  }
