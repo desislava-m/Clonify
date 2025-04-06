@@ -11,6 +11,10 @@ body {
     margin: 0;
 }
 
+.burger-menu {
+  display: none;
+}
+
 .nav-container {
     background-color: var(--white);
     padding: 0;
@@ -439,5 +443,21 @@ body {
    .footer {
     padding-top: 52px;
    }
+  }
+
+  @media (max-width: 768px) {
+    .burger-menu {
+      display: inline;
+      position: absolute;
+      right: 50px;
+    }
+
+    .nav-links-container {
+      display: none;
+    }
+
+    .nav-icons-container {
+      display: none;
+    }
   }
   
