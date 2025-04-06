@@ -459,5 +459,174 @@ body {
     .nav-icons-container {
       display: none;
     }
+
+    .hero-text {
+      padding-left: 30px;
+    }
+
+    .semi-bold-subheading {
+      font-size: 14px;
+    }
+
+    .header-1 {
+      font-size: 36px;
+      line-height: 38px;
+    }
+
+    .body-text {
+      font-size: 14px;
+      line-height: 20px;
+      max-width: 250px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+    }
+
+    .medium-btn {
+      font-size: 14px;
+    }
+
+    .footer-top {
+      gap: 10px;
+    }
+
+    .footer-logo img {
+      max-width: 100px;
+    }
+
+    .footer-logo p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    .footer-links h4 {
+      margin-bottom: 10px;
+    }
+
+    .footer-links a {
+      font-size: 12px;
+    }
+
+    .footer-bottom p {
+      font-size: 12px;
+    }
+
+    .selector {
+      font-size: 12px;
+    }
+
+    .hero-arrow {
+      display: none;
+    }
+
+    .brands-arrow {
+      display: none;
+    }
+
+    .learn-more-heading {
+      font-size: 34px;
+      line-height: 36px;
+      margin-bottom: 5px;
+    }
+
+    .learn-more-paragraph {
+      width: 480px;
+      margin: 0 auto 16px;
+      text-align: center;
+    }
+    
+  }
+
+  @media (max-width: 650px) {
+
+    .hero-section {
+      margin-bottom: 64px;
+    }
+
+    .hero-wrapper {
+      flex-direction: column;
+      background-color: var(--white);
+    }
+  
+    .hero-image,
+    .hero-text {
+      max-width: 100%;
+      flex: 1 1 100%;
+    }
+
+    .hero-image {
+      margin-bottom: 24px;
+    }
+  
+    .header-1 {
+      font-size: 38px;
+      line-height: 45px;
+      letter-spacing: -0.6px;
+      margin-bottom: 12px;
+    }
+    
+    .hero-text {
+      padding-left: 50px;
+      max-width: 100%;
+      width: 100%;
+      padding-right: 20px;
+      text-align: left;
+      align-self: flex-start;
+    }
+  
+    .hero-text p {
+      font-size: 18px;
+      line-height: 26px;
+      max-width: 450px;
+    }
+
+    .medium-btn {
+      font-size: 18px;
+    }
+
+    .logos-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+      border-top: none;
+      border-bottom: none;
+      padding: 0 40px 0;
+      margin-bottom: 64px
+    }
+
+    .logos-container li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+
+    .logos-container img {
+      width: 100px;
+      height: auto;
+    }
+
+    .brands-wrapper {
+      margin: 0px 0px 88px
+    }
+  
+  }
+
+  @media (max-width: 500px) {
+    .header-1 {
+      font-size: 28px;
+      line-height: 34px;
+      letter-spacing: -0.6px;
+    }
+  
+    .hero-text p {
+      font-size: 16px;
+      line-height: 26px;
+      max-width: 450px;
+    }
+
+    .medium-btn {
+      font-size: 16px;
+    }
+  
   }
   
