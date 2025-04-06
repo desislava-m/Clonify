@@ -589,24 +589,39 @@ body {
       justify-items: center;
       border-top: none;
       border-bottom: none;
-      padding: 0 40px 0;
       margin-bottom: 64px
     }
 
-    .logos-container li {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-    }
-
     .logos-container img {
-      width: 100px;
+      
+      width: 100%;
       height: auto;
+      max-width: 400px;
+        max-height: 80px
     }
+  
 
     .brands-wrapper {
       margin: 0px 0px 88px
+    }
+
+    .products-section {
+      display: grid;
+      grid-template-columns: 1fr;
+      margin-left: 16px;
+      margin-right: 16px;
+      margin-bottom: 24px;
+    }
+
+    .small-text {
+      font-size: 16px;
+      margin-top: 16px;
+      margin-bottom: 5px ;
+    }
+
+    .headline {
+       font-size: 20px;
+       margin-bottom: 32px;
     }
   
   }
