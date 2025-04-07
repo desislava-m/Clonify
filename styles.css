@@ -500,7 +500,7 @@ body {
     }
 
     .footer-logo img {
-      max-width: 100px;
+      max-width: 120px;
     }
 
     .footer-logo p {
@@ -666,7 +666,8 @@ body {
     .links {
       display: flex;
       border-bottom: 1px solid #D0D5DD;
-      justify-content: space-between
+      justify-content: space-between;
+      padding-bottom: 10px;
     }
 
     .links h4 {
@@ -680,10 +681,12 @@ body {
     .footer-links {
       flex-direction: column;
       gap:10px;
+      margin-bottom: 32px;
     }
 
     .footer-top {
       flex-direction: column;
+      margin-bottom: 0;
     }
 
     .chevron {
@@ -692,6 +695,15 @@ body {
 
     .social-icons {
       display: none;
+    }
+
+    .social-icons-bottom {
+      margin-bottom: 16px;
+    }
+
+    .footer-bottom p {
+      margin: 0;
+      font-size: 12px;
     }
 
     .footer-links a {
@@ -703,6 +715,18 @@ body {
       border-top: none;
     }
 
+    .footer-logo p {
+      margin-bottom: 19px;
+      margin-bottom: 24px;
+    }
+
+    .footer-selectors {
+      margin-bottom: 32px; 
+    }
+
+    .footer {
+      padding: 48px 16px 24px;
+    }
   
   }
 
