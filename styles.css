@@ -665,6 +665,8 @@ body {
 
     .links {
       display: flex;
+      border-bottom: 1px solid #D0D5DD;
+      justify-content: space-between
     }
 
     .links h4 {
@@ -695,6 +697,12 @@ body {
     .footer-links a {
       display: none;
     }
+
+    .footer-bottom {
+      flex-direction: column-reverse;
+      border-top: none;
+    }
+
   
   }
 
