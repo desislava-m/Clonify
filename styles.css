@@ -458,7 +458,6 @@ body {
   @media (max-width: 768px) {
     .burger-menu {
       display: inline;
-      position: absolute;
       right: 50px;
     }
 
@@ -540,6 +539,11 @@ body {
 
   @media (max-width: 650px) {
 
+    .nav-content {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+
     .hero-section {
       margin-bottom: 64px;
     }
@@ -618,7 +622,7 @@ body {
       border-bottom: none;
       margin-bottom: 64px;
       gap: 70px 60px;
-      padding: 0;
+      padding: 40px 56px;
     }
 
     .logos-container img {
@@ -645,6 +649,8 @@ body {
 
     .brands-wrapper {
       margin-bottom: 40px;
+      margin-left: 16px;
+      margin-right: 16px;
     }
 
     .column {
@@ -661,6 +667,10 @@ body {
     }
     .learn-more {
       margin: 24px 16px;
+    }
+
+    .learn-more-paragraph {
+      max-width: 100%;
     }
 
     .links {
@@ -745,6 +755,24 @@ body {
 
     .medium-btn {
       font-size: 16px;
+    }
+
+    .logos-container {
+      gap: 30px 40px;
+      margin-bottom: 32px;
+    }
+
+    .hero-text {
+      padding: 0 16px;
+    }
+
+    .learn-more-text {
+      padding: 0;
+      width: 100%;
+    }
+
+    .learn-more-paragraph {
+      padding: 0 10px 0;
     }
   
   }
