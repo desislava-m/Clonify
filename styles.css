@@ -311,6 +311,10 @@ body {
     font-family: 'Inter', sans-serif;
     color: #5f6980;
   }
+
+  .chevron {
+    display: none;
+  }
   
   .footer-top {
     display: flex;
@@ -659,6 +663,38 @@ body {
       margin: 24px 16px;
     }
 
+    .links {
+      display: flex;
+    }
+
+    .links h4 {
+      margin: 0;
+    }
+
+    .links img {
+      margin-left: 15px;
+    }
+
+    .footer-links {
+      flex-direction: column;
+      gap:10px;
+    }
+
+    .footer-top {
+      flex-direction: column;
+    }
+
+    .chevron {
+      display: flex;
+    }
+
+    .social-icons {
+      display: none;
+    }
+
+    .footer-links a {
+      display: none;
+    }
   
   }
 
