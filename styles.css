@@ -9,6 +9,11 @@
 
 body {
     margin: 0;
+    padding: 0;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 .burger-menu {
@@ -259,23 +264,14 @@ body {
     color: var(--primary);
     margin: 0;
   }
-
-  .learn-more {
-    width: 100%;
-    height: auto;
-    position: relative;
-  }
   
-  .learn-more-container {
+  .learn-more {
     background-image: url(./img/Image\ Placeholder.png);
     background-size: cover;
     background-position: center;
     aspect-ratio: 1336 / 494; 
     position: relative;
-  }
-
-  .learn-more-wrapper {
-    padding: 52px;
+    margin: 52px;
   }
 
   .learn-more-text {
@@ -630,7 +626,7 @@ body {
       grid-template-columns: 1fr;
       margin-left: 16px;
       margin-right: 16px;
-      margin-bottom: 24px;
+      margin-bottom: 48px;
     }
 
     .small-text {
@@ -653,9 +649,16 @@ body {
 
     .column img {
       padding-top: 24px;
-      padding-right: 16px;
-      padding-left: 16px;
     }
+    
+    .learn-more-wrapper {
+      padding: 24px;
+      height: 375px;
+    }
+    .learn-more {
+      margin: 24px 16px;
+    }
+
   
   }
 
