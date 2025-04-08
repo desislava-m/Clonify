@@ -312,6 +312,10 @@ body {
     color: #5f6980;
   }
 
+  .social-icons-bottom {
+    display: none;
+  }
+
   .chevron {
     display: none;
   }
@@ -708,6 +712,7 @@ body {
     }
 
     .social-icons-bottom {
+      display: inline;
       margin-bottom: 16px;
     }
 
